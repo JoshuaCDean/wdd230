@@ -6,9 +6,9 @@
 
 .header-div {
     display: flex;
-    background-color: brown;
+    background-color: bisque;
     border-radius: 10px;
-    border: 2px solid brown;
+    border: 2px solid bisque;
     height: 250px;
     box-shadow: 5px 5px 30px black;
 }
@@ -17,7 +17,7 @@
     margin: auto 25px auto 25px;
     box-shadow: 5px 5px 10px black;
     border-radius: 10px;
-    border: 0px solid brown;
+    border: 0px solid bisque;
     height: 80%;
 }
 
@@ -47,20 +47,20 @@ ul li {
 }
 
 footer {
-    background-color: brown;
+    background-color: bisque;
     border-radius: 10px;
-    border: 2px solid brown;
+    border: 2px solid bisque;
     box-shadow: 5px 5px 30px black;
     text-align: center;
 }
 
 footer p {
     font-size: 20px;
-    color: white;
+    color: black;
 }
 
 span {
     font-size: 20px;
     font-weight: 700;
-    color:yellow;
+    color:maroon;
 }
