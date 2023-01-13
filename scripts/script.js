@@ -26,7 +26,7 @@ let months = [
 let d = new Date(document.lastModified);
 let year = d.getFullYear();
 let fulldate = `Last Updated: ${d.getMonth()+1}/${d.getDate()}/${year} ${minTwoDigits(d.getHours())}:${minTwoDigits(d.getMinutes())}:${minTwoDigits(d.getSeconds())}`
-
+document.getElementById("copyyear").textContent= year;
 document.getElementById("currentdate").textContent = fulldate;
 
 

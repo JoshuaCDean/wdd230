@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
 .content {
     display: block;
     max-width: 600px;
     margin: auto;
+    font-family: 'Raleway', sans-serif;
 }
 
 .header-div {
