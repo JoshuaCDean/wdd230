@@ -1,0 +1,18 @@
+@media only screen and (min-width:32.5em) {
+
+    .content {
+        max-width: 700px;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    #portrait {
+        height: 80%;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+}
