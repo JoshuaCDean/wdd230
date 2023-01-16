@@ -16,6 +16,10 @@
         grid-column: 1/2;
     }
 
+    #double-1 .body-card {
+        height: 813.5px
+    }
+
     #double-2 {
         grid-column: 2/3;
     }
