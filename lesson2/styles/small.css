@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+.content {
+    font-family: 'Inconsolata', monospace;
+    display: block;
+    max-width: 400px;
+    margin: auto;
+}
+
+#header-div {
+    background-color: rgb(18, 8, 59);
+    color: white;
+    text-align: center;
+}
+
+.principle-box {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.title-card {
+    background-color: rgb(64, 63, 68);
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+h3 {
+    padding: 10px;
+}
+
+.title-card p {
+    padding: 10px;
+}
+
+.title-card a {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.title-card a:hover {
+    color: rgb(217, 177, 255);
+}
+
+.body-card {
+    background-color: rgb(196, 196, 196);
+    color: black;
+    border: 0.1px solid rgb(64, 63, 68);
+    text-align: center;
+
+}
+
+.body-card img {
+    padding:11px;
+}
+
+
+
+footer {
+    background-color: rgb(18, 8, 59);
+    color:white;
+    font-size: 20px;
+    padding: 1px;
+    text-align: center;
+}
