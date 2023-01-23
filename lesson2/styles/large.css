@@ -1,4 +1,4 @@
-@media only screen and (min-width:900px) {
+@media only screen and (min-width:1000px) {
     .content {
         max-width: 1200px;
     }
@@ -8,7 +8,6 @@
     }
     
     main {
-        display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
     
@@ -29,7 +28,7 @@
     }
 
     .body-card {
-        height: 813.5px;
+        height: 813.5px; 
     }
 
     .body-card img {

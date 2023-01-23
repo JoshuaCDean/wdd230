@@ -13,6 +13,12 @@
     text-align: center;
 }
 
+
+main {
+    display: grid;
+    grid-template-columns:1fr;
+}
+
 .principle-box {
     padding-top: 10px;
     padding-bottom: 10px;
