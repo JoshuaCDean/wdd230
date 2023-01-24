@@ -1,0 +1,19 @@
+@media only screen and (max-width:650px) {
+    nav {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    
+    h1 {
+        font-size: 30px;
+    }
+    
+    h2 {
+        font-size: 25px;
+    }
+
+    .persona {
+        max-width: 90%;
+        font-size: 18px;
+    }
+}

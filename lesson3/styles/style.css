@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Merriweather+Sans&display=swap');
+
+.content {
+    display: block;
+    margin: auto;
+    text-align: center;
+
+}
+
+header {
+    background-color: #25D0BC;
+    color: #282A3E;
+    padding-bottom: 5px;
+    
+}
+
+nav {
+    margin: 10px;
+    background-color: #25D0BC;
+    font-size: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10px;
+    box-shadow: 1px 1px 10px black;
+}
+
+nav a {
+    text-decoration:  none;
+    color: #282A3E;
+    height: 100%;
+}
+
+nav a:hover {
+    background-color: #CDCFDF;
+    color: #0C463F;
+    border: 1px solid #0C463F;
+    border-radius: 10px;
+
+}
+
+hr
+{
+    margin-bottom: 10px;
+    max-width: 1000px;
+}
+
+#purpose-box
+{
+    margin: 50px auto;
+    max-width: 1000px;
+    border: 2px solid black;
+    font-size: 18px;
+}
+
+#purpose-box p {
+    margin: 10px;
+}
+
+
+.persona {
+    max-width:  1000px;
+    margin: auto;
+    font-size: larger;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    font-size: larger;
+    margin: 5px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+
+.color-palette {
+    max-width: 1000px;
+    margin: 30px auto;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+}
+
+.color-palette td{
+    padding:10px;
+}
+
+.color-palette th {
+    background-color: gray;
+}
+
+.primary {
+  background-color: #25D0BC;
+  color: #28282E;
+}
+
+.secondary {
+  background-color: #282A3E;
+  color: #25D0BC;
+}
+
+.accent1 {
+  background-color: #0C463F;
+  color: #CDCFDF;
+}
+
+.accent2{
+  background-color: #CDCFDF;
+  color: #0C463F;
+}
+
+h1 {
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+h2 {
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+h3 {
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+p {
+    font-family: 'Dosis', sans-serif;
+}
+
+.typography {
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+.typography p {
+    font-size: 20px;
+}
+
+.colored-paragraph {
+    background-color: #25D0BC;
+    color: #28282E;
+    border: 1px solid black;
+}
+
+
+footer {
+    background-color: #25D0BC;
+    font-size: 25px;
+    padding: 5px;
+    margin-top: 15px;
+}
