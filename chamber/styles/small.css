@@ -1,0 +1,232 @@
+/* Import Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Merriweather+Sans&display=swap');
+
+
+/* Font Changes */
+h1, h2, h3 {
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+p {
+    font-family: 'Dosis', sans-serif;
+}
+
+/* Header */
+
+body {
+    max-width: 100%;
+    margin: auto;
+    padding: 2vw;
+}
+
+header {
+    background-color: #25D0BC;
+    color: #282A3E;
+    margin-bottom: 30px;
+    border: 1px solid #282A3E;
+}
+
+#header-flexbox {
+    display: flex;
+}
+
+#headerLogo{
+    height: auto;
+    width: 15%;
+    padding:2vw;
+}
+
+#headerLogo img {
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-size: large;
+}
+
+#headerTextInfo {
+    width:50%;
+}
+
+.social-image {
+    height: auto;
+    width: 40px;
+}
+
+#social-logo-box {
+    width: fit-content;
+    display: flex;
+}
+
+header nav{
+    display: flex;
+    flex: 1;
+}
+
+#primaryNav {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#head-date-holder {
+    width: 80%;
+    margin: auto;
+    font-size: 1.5em;
+    border-top: 1px solid #282A3E;
+    text-align: center;
+}
+
+/* Large Navigation Menu */
+#large-nav {
+    margin: auto;
+    width: 50%;
+    display: none;
+}
+
+#large-nav a {
+    
+    text-decoration: none;
+    color: #0C463F;
+    font-size: 1.5rem;
+}
+
+#large-nav a:hover {
+    color:rgba(0, 0, 0, 0.3)
+}
+
+
+
+
+/* Hamburger Menu */
+
+#burgerBox {
+    flex:1;
+    text-align: right;
+}
+
+
+#primaryNav{
+    display: none;
+    background-color: #0C463F;
+    color:#CDCFDF;
+    text-align: left;
+}
+
+#hamburgerBtn {
+    margin: .2rem 2vw;
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    color: #282A3E;
+}
+
+#burgerBox.open {
+    background-color: #0C463F;
+}
+
+#primaryNav.open {
+    display: block;
+}
+
+#primaryNav li a{
+    display: block;
+    padding: .8rem 2vw;
+    color:#CDCFDF;
+    text-decoration: none;
+    border-top: 1px solid rgba(0,0,0, 0.5)
+}
+
+#primaryNav li.active a {
+    background-color:  rgba(0,0,0,0.5);
+    color: #fff;
+}
+
+#primaryNav li a:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.close, .close img{
+    display: none;
+}
+
+
+
+
+
+#hamburgerBtn span:nth-child(1) {display:block;}
+#hamburgerBtn span:nth-child(2) {display:none;}
+
+#hamburgerBtn.open span:nth-child(1) {display:none;}
+#hamburgerBtn.open span:nth-child(2) {display:block; color:#CDCFDF;}
+
+
+
+/* Main */
+
+main section {
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    margin: 30px
+}
+
+main section p {
+    padding: 20px;
+}
+
+#spotlights {
+    height: fit-content;
+    
+}
+
+#spotlights section {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#spotlight3 {
+    display: none;
+}
+
+#join {
+    display: none;
+}
+
+
+
+/* Footer */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #25D0BC;
+    border: 1px solid #282A3E;
+}
+
+footer a{
+    margin: auto;
+    text-decoration: none;
+    color: #282A3E;
+}
+
+#base-footer {
+    border-top: 1px solid #282A3E;
+}
+
+#base-footer h3{
+    font-size: medium;
+}
+
+#base-footer p {
+    font-size: small;
+}
+
+#medium-footer {
+    display: none;
+}
+
+#large-footer {
+    display: none;
+}

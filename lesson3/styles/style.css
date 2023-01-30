@@ -18,8 +18,7 @@ nav {
     margin: 10px;
     background-color: #25D0BC;
     font-size: 30px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
     padding: 10px;
     box-shadow: 1px 1px 10px black;
 }

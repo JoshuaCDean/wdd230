@@ -1,0 +1,91 @@
+@media only screen and (min-width: 64rem) {
+    /* Header */
+    #burgerBox {
+        display: none;
+    }
+
+    #headerTextInfo {
+        width: 15%;
+    }
+
+    #headerLogo{
+        height: auto;
+        width: 10%;
+        padding:2vw;
+    }
+
+    #large-nav {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    /* Main */
+    main {
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-rows: 300px 300px 300px;
+        margin-bottom: 20px;
+    }
+
+    main section {
+        height: auto;
+        width: auto;
+        margin: 5px;
+    }
+
+    #event {
+        grid-column:1/2;
+        grid-row: 1/2;
+    }
+
+    #hero {
+        grid-column: 2/3;
+        grid-row: 1/3;
+    }
+    
+    #weather {
+        grid-column:1/2;
+        grid-row: 2/3;
+    }
+
+    #join {
+        display: block;
+        
+        grid-column:1/2;
+        grid-row: 3/4;
+    }
+
+    #news {
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
+
+    #spotlight3 {
+        display: block;
+    }
+
+    #spotlights {
+        display: flex;
+        flex-direction: column;
+        grid-column: 3/4;
+        grid-row: 1/4;
+        height: auto;
+    }
+
+    /* Footer */
+    #footer-info-box2 {
+        margin:auto;
+    }
+
+    #medium-footer {
+        display:none;
+    }
+
+    #large-footer {
+        display: block;
+    }
+
+    #large-footer p {
+        font-size: medium;
+    }
+}
