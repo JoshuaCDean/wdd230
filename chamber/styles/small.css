@@ -164,25 +164,140 @@ header nav{
 
 
 /* Main */
-
 main div {
-    height: 300px;
-    background-color: rgba(0, 0, 0, 0.1);
-    border: 1px solid rgba(0, 0, 0, 0.3);
-    margin: 30px
+    background-color: #0C463F;
+    color:#CDCFDF;
+    text-align: center;
 }
 
-main div p {
-    padding: 20px;
+
+main h2 {
+    color:#25D0BC;
+    text-shadow:1px 1px 5px black;
+    padding: 10px;
 }
 
+main p {
+    font-size: large;
+    text-shadow:1px 1px 2px #282A3E;
+    padding: 10px;
+    padding-bottom: 0px;
+}
+
+/*Hero Section*/
+
+#hero {
+    position: relative;
+    padding: 0px;
+    background-color: transparent;
+    margin: 0px;
+}
+
+#hero img{
+    width:100%;
+    height: 100%;
+}
+
+#hero h2 {
+    color: #282A3E;
+    text-shadow: 1px 1px 3px #25D0BC;
+    position: absolute;
+    top: 5px;
+    margin-top: 5px;
+    left: 10px;
+}
+
+#hero a {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: #0C463F;
+    opacity: 0.95;
+    padding:15px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #CDCFDF;
+
+}
+
+#hero a:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+/*Event Section*/
+
+#events {
+    box-shadow: 0px 0px 10px #282A3E;
+}
+
+#events a {
+    text-decoration: none;
+    color:#25D0BC;
+    font-size: large;
+}
+
+/*Weather Section*/
+
+#weather {
+    box-shadow: 0px 0px 10px #282A3E;
+}
+
+#weather-box-ph {
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+    
+
+}
+
+#weather-box-ph img {
+    width: 20%;
+    height:auto;
+}
+
+#weather-box-ph p {
+    font-size: xx-large;
+    padding: 0px;
+}
+
+
+#weather-info-ph {
+    padding-bottom: 5px;
+    width: 50%;
+    margin: auto;
+}
+
+#weather-info-ph hr {
+    width: 100%;
+}
+
+#weather-info-ph p {
+    text-align: left;
+    padding: 0;
+}
+
+/*News*/
+#news {
+    box-shadow: 0px 0px 10px #282A3E;
+}
+
+#news p {
+    padding-bottom: 10px;
+}
+
+/*Spotlight */
 #spotlights {
     height: fit-content;
-    
+    padding: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0px 0px 10px #282A3E;
 }
 
 #spotlights div {
-    background-color: rgba(0, 0, 0, 0);
+    width: 90%;
+    margin: 10px auto;
+    box-shadow: 0px 0px 15px #282A3E;
+
 }
 
 #spotlight3 {
