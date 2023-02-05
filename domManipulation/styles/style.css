@@ -12,3 +12,15 @@ main {
     font-size: large;
     padding: 15px;
 }
+
+#list li{
+    padding:10px;
+    
+}
+
+#list button {
+    margin: 10px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
