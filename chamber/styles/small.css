@@ -300,6 +300,31 @@ main p {
 
 }
 
+#spotlights img {
+    height: 200px;
+    width: 200px;
+}
+
+#spotlights h3 {
+    font-size: medium;
+}
+
+#spotlights hr {
+    width: 70%;
+}
+
+#spotlights p {
+    margin: 3px;
+    padding: 1px;
+}
+
+#spotlights a {
+    margin: 3px;
+    padding: 1px;
+    color:#CDCFDF;
+    text-decoration: none;
+}
+
 #spotlight3 {
     display: none;
 }
