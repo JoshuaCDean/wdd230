@@ -21,8 +21,14 @@ const now = new Date();
 const headFullDate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
 	now
 );
-
 headerDate.innerHTML = `<em>${headFullDate}</em>`;
+
+
+
+if (now.getDay() == 1 || now.getDay() == 2) {
+    const banner = document.querySelector("#banner");
+    banner.style.display = "block";
+}
 
 
 
