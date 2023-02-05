@@ -54,14 +54,6 @@
         display: grid;
         flex-direction: column;
     }
-
-    #events h3, p, a {
-        
-        align-self: space-between;
-        justify-self: space-between;
-        
-    }
-
     /*Weather*/
 
     #weather {
