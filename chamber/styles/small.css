@@ -184,6 +184,19 @@ main p {
     padding-bottom: 0px;
 }
 
+/*Banner Section*/
+
+#banner {
+    background-color: #CDCFDF;
+    border-radius: 10px;
+}
+
+#banner h2 {
+    color: black;
+    text-shadow: 1px 1px 2px #25D0BC;
+    font-size: medium;
+}
+
 /*Hero Section*/
 
 #hero {
