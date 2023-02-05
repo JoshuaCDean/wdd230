@@ -217,6 +217,7 @@ main p {
     border-radius: 10px;
     text-decoration: none;
     color: #CDCFDF;
+    font-size: x-large;
 
 }
 
@@ -276,6 +277,11 @@ main p {
     padding: 0;
 }
 
+#weather-info-ph div {
+    display: flex;
+    justify-content: space-between;
+}
+
 /*News*/
 #news {
     box-shadow: 0px 0px 10px #282A3E;
@@ -301,8 +307,8 @@ main p {
 }
 
 #spotlights img {
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
 }
 
 #spotlights h3 {
@@ -321,7 +327,7 @@ main p {
 #spotlights a {
     margin: 3px;
     padding: 1px;
-    color:#CDCFDF;
+    color:#25D0BC;
     text-decoration: none;
 }
 
@@ -329,11 +335,30 @@ main p {
     display: none;
 }
 
+
+/*Join Section */
 #join {
     display: none;
+    padding: 25px;
 }
 
+#join a {
+    background-color: #25D0BC;
+    color: #282A3E;
+    font-size: 20px;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px black;
+}
 
+#join a:hover{
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+#join p {
+    font-size: larger;
+}
 
 /* Footer */
 
