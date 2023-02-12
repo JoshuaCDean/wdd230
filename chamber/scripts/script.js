@@ -18,7 +18,7 @@ x.onclick = toggleMenu;
 //Header Date
 const headerDate = document.querySelector("#headerCurTime");
 const now = new Date();
-const headFullDate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
+const headFullDate = new Intl.DateTimeFormat("en-UK", { dateStyle: "full" }).format(
 	now
 );
 headerDate.innerHTML = `<em>${headFullDate}</em>`;

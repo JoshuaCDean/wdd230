@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
     <script src="scripts/script.js" defer></script>
+    <script src="scripts/wind_chill.js" defer></script>
 </head>
 
 <body>
@@ -18,7 +19,7 @@
     <header>
         <div id="header-flexbox">
             <a id="headerLogo" href="index.html">
-                <img src="images/logo.png" alt="CCOC logo">
+                <img src="images/logo.webp" alt="CCOC logo">
             </a>
             <div id="headerTextInfo">
                 <h1>Coffeyville</h1>
@@ -57,7 +58,11 @@
             <h2>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</h2>
         </div>
         <div id="hero">
-            <img id="heroImg" src="images/hero_img.png" alt="Hero Image">
+            <img id="heroImg" src="images/wdd230-org1200.jpg" alt="Hero Image"
+                srcset="images/wdd230-org400.jpg 400w,
+                        images/wdd230-org800.jpg 800w,
+                        images/wdd230-org1200.jpg 1200w"
+            >
             <h2>Welcome To Coffeyville</h2>
             <a href="#">Join the Chamber</a>
         </div>
@@ -73,7 +78,7 @@
             <h2>Weather</h2>
             <div id ="weather-box-ph">
                 <img src="images/cloudy.png" alt="Weather Icon">
-                <p id="weather-degrees">26&#176;F</p>
+                <p id="weather-degrees"><span id="weatherDegrees">26</span>&#176;F</p>
             </div>
             <div id="weather-info-ph">
 
@@ -81,11 +86,11 @@
                 <hr>
                 <div>
                     <p>Wind Speed:</p>
-                    <p>2 mp/h</p>
+                    <p><span id="windSpeed">3.1</span> mp/h</p>
                 </div>
                 <div>
                     <p>Wind Chill:</p>
-                    <p>Caution</p>
+                    <p id="windChill"> </p>
                 </div>
                 <div>
                     <p>Humidity:</p>
@@ -139,7 +144,7 @@
 
     <footer>
         <section id="info-footer">
-            <a href="index.html" id="footerLogo"><img src="images/logo.png" alt="CCOC Logo"></a>
+            <a href="index.html" id="footerLogo"><img src="images/logo.webp" alt="CCOC Logo"></a>
             <div id="footer-info-box1">
                 <h3>Coffeyville Chamber of Commerce</h3>
                 <p>1820 West 8th Street</p>
