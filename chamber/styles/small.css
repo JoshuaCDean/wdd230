@@ -375,6 +375,50 @@ main p {
     font-size: larger;
 }
 
+/*Discover Page */
+main h1 {
+    text-align: center;
+}
+
+#lastVisit {
+    text-align: center;
+}
+
+#discover-head-ban
+{
+    background-color: #0C463F;
+    border-radius: 10px;
+    color: #CDCFDF;
+    padding:10px
+}
+
+main div {
+    padding: 10px;
+    margin: 10px;
+}
+
+main div ul li {
+    font-family: 'Dosis', sans-serif;
+    padding: 10px;
+    font-size: 16px;
+    text-shadow: black 1px 1px 10px;
+}
+
+picture img {
+    width: 90%;
+    padding: 10px;
+}
+
+
+picture img[data-src] {
+    filter: blur(0.2em);
+}
+
+picture img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
+
 /* Footer */
 
 footer {

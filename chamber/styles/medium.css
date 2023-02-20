@@ -79,6 +79,30 @@
         flex: 1;
     }
 
+    /* Discover */
+
+    #discover-head-ban {
+        grid-column: 1/3;
+    }
+
+    picture img:hover {
+        filter: blur(4px);
+        transition: filter 0.3s;
+    }
+    
+    #past-div {
+        grid-column: 1/3;
+    }
+
+    #flood-div {
+        grid-column: 1/3;
+    }
+
+    #current-div {
+        grid-column: 1/3;
+    }
+
+    
 
 
 

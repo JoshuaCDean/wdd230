@@ -25,7 +25,6 @@ if("IntersectionObserver" in window) {
         imgObserver.observe(img);
     });
 } else {
-    console.log("Incorrect WAH WAH WAAAAAH")
     imagesToLoad.forEach((item) => {
         loadImages(item);
     });
