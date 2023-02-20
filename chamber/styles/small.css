@@ -376,10 +376,6 @@ main p {
 }
 
 /*Discover Page */
-main h1 {
-    text-align: center;
-}
-
 #lastVisit {
     text-align: center;
 }
@@ -389,7 +385,8 @@ main h1 {
     background-color: #0C463F;
     border-radius: 10px;
     color: #CDCFDF;
-    padding:10px
+    padding:10px;
+    text-align: center;
 }
 
 main div {
