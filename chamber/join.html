@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
     <script src="scripts/script.js" defer></script>
-    <script src="scripts/wind_chill.js" defer></script>
 </head>
 
 <body>
@@ -55,11 +54,34 @@
 
     <main>
         <form action="thankyou.html" method="get">
-            <label>*First Name:</label><input type="text" name="fname" required></label>
-            <label>*Last Name:</label><input type="text" name="lname" required></label>
-            <label>Business Position:</label><input type="text" pattern="[A-Za-z]{7}"></label>
-            <label>Email:</label><input type="email" name="email" placeholder="businessemail@gmail.com"></label>
-            <label>*Last Name:</label><input type="text" name="lname" required></label>
+            <fieldset>
+                <legend>Applicant Information</legend>
+                <label>*First Name:</label><input type="text" name="fname" required></label>
+                <label>*Last Name:</label><input type="text" name="lname" required></label>
+                <label>Business Position:</label><input type="text" pattern="[A-Za-z]{7}"></label>
+                <label>Email:</label><input type="email" name="email" placeholder="businessemail@gmail.com"></label>
+                <label>*Phone Number:</label><input type="tel" name="phone" placeholder="1111234321" required></label>
+                <label>*Business Title:</label><input type="text" name="bname" required></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Membership Level</legend>
+                <label><input type="radio" name="memberLevel" value="nonprofit">Non-Profit Membership</label>
+                <label><input type="radio" name="memberLevel" value="bronze">Bronze Membership</label>
+                <label><input type="radio" name="memberLevel" value="silver">Silver Membership</label>
+                <label><input type="radio" name="memberLevel" value="gold">Gold Membership</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Business Information</legend>
+                <textarea name="bdescription" cols="30" rows="10" placeholder="Give a brief description about your business."></textarea>
+            </fieldset>
+
+            <fieldset class="hidden">
+                <legend>Hidden Date And Time</legend>
+                <span id="forumDateTime"></span>
+            </fieldset>
+            <input type="submit" value="Join the Chamber" class="submitBtn">
         </form>
     </main>
 
@@ -92,6 +114,7 @@
             <div id ="large-footer">
                 <p>&copy; <span class="copyyear"></span> Coffeyville Chamber | JOSHUA C. DEAN | KANSAS | WDD 230 Project | <span class="currentdate"></span> </p>
             </div>
+            
         </section>
     </footer>
     
