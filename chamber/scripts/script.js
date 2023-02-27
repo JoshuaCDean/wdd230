@@ -93,6 +93,11 @@ if (!lastVisit == NaN)
 localStorage.setItem("last-visit", todayDate);
 visitDays.textContent = `${daySinceLastVisit} `;
 
+// Join Hidden Date Time
+const forumDateTime = document.querySelector("#forumDateTime");
+const dateandTime = `Date: ${now.getDate()} Time: ${now.getTime()}`;
+forumDateTime.innerHTML = dateandTime;
+
 
 // Scrolling Checker
 

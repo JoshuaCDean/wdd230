@@ -416,6 +416,101 @@ picture img {
     transition: filter 0.5s;
 }
 
+/*JOIN PAGE*/
+
+form fieldset {
+    margin:2rem 0;
+    border: 1px solid #0C463F;
+    background-color: #CDCFDF;
+    border-radius: 10px;
+    padding: .5rem 2%;
+}
+
+form legend {
+    color: #282A3E;
+    margin: 0 auto;
+    font-size: larger;
+    padding: 0 .8rem;
+}
+
+form label.top {
+    display: block;
+    padding-top: 1.75rem;
+    color: #0C463F;
+    font-size: 1rem;
+}
+
+form label.top input, form label.top select {
+    display: block;
+    font-size: 1.1rem;
+    border: solid 1px #282A3E;
+    border-radius: 6px;
+    padding: .75rem;
+    color: #CDCFDF;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(12,70,63, 0.5);
+}
+
+::placeholder {
+    color: #CDCFDF;
+}
+
+
+form label.sbs {
+    font-size: 1.2rem;
+    display: block;
+    padding: .75rem 0;
+    color: #0C463F;
+}
+
+form label.sbs:hover {
+    color: black;
+}
+
+form textarea {
+    border: #CDCFDF 1px solid;
+    width: 90%;
+    color: #CDCFDF;
+    border-radius: 6px;
+    padding: 10px;
+    background-color: rgba(12,70,63, 0.8);
+    max-width: 40rem;
+    margin: 1rem 0;
+}
+
+
+
+form input.submitBtn {
+    border: #0C463F solid 1px;
+    background-color: #CDCFDF;
+    color: #0C463F;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin:0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+
+form input.submitBtn:hover {
+    background-color: rgba(12,70,63, 0.8);
+    color: #CDCFDF;
+}
+
+
+form label.top input:required {
+    border-left: red solid 6px;
+}
+
+
+form label.top input:required:valid
+{
+    border-left: #25D0BC solid 6px;
+}
+
+.hidden {
+    display: none;
+}
 /* Footer */
 
 footer {

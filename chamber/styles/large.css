@@ -136,6 +136,11 @@
         font-size: 19px;
     }
 
+    /* Join */
+    form {
+        grid-column: 1/4;
+    }
+
     /* Footer */
     #footer-info-box2 {
         margin:auto;
