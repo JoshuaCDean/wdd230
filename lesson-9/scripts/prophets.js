@@ -25,10 +25,10 @@ function displayProphets(prophets) {
         portrait.setAttribute("height", "440");
 
         card.appendChild(h2);
-        card.appendChild(birthDate)
-        card.appendChild(birthPlace)
-        card.appendChild(portrait)
-        cards.appendChild(card)
+        card.appendChild(birthDate);
+        card.appendChild(birthPlace);
+        card.appendChild(portrait);
+        cards.appendChild(card);
     })
     
 }
