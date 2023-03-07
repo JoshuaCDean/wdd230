@@ -19,14 +19,14 @@
         justify-content: space-around;
     }
 
-    /* Main */
-    main {
+    /* .content */
+    .content {
         display: grid;
         grid-template-columns: 1fr 2fr 1fr;
         margin-bottom: 20px;
     }
 
-    main div {
+    .content div {
         height: auto;
         width: auto;
         margin: 5px;
@@ -131,7 +131,7 @@
         grid-column: 1/4;
     }
 
-    main div ul li {
+    .content div ul li {
         list-style-type: none;
         font-size: 19px;
     }

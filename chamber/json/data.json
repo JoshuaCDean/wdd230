@@ -1,0 +1,76 @@
+{
+    "businesses": [
+        {
+            "name": "ACME Foundry",
+            "address": "1502 South Spruce Street",
+            "phonenumber": "(620) 251-6800",
+            "website": "https://acmefoundry.net",
+            "image": "images/businesses/acme_foundry.png",
+            "membershiplevel": "Non-Profit Membership"
+        },
+        {
+            "name": "Orscheln Farm & Home",
+            "address": "1702 West 11th Street",
+            "phonenumber": "(620) 251-2950",
+            "website": "https://stores.orschelnfarmhome.com/ks/coffeyville/036/?utm_source=google&utm_medium=local&utm_campaign=google-local",
+            "image": "images/businesses/orscheln_farm_and_home.png",
+            "membershiplevel": "Non-Profit Membership"
+        },
+        {
+            "name": "The Ville Pub & Grill",
+            "address": "2300 Woodland Ave",
+            "phonenumber": "(620) 251-6680",
+            "website": "https://www.facebook.com/profile.php?id=100064057626608",
+            "image": "images/businesses/the_ville_pub_and_grill.png",
+            "membershiplevel": "Non-Profit Membership"
+        },
+        {
+            "name": "Coffeyville Roller Dome",
+            "address": "2409 West 8th Street",
+            "phonenumber": "(620) 251-2990",
+            "website": "https://www.facebook.com/coffeyvillerollerdome/",
+            "image": "images/businesses/coffeyville_roller_dome.png",
+            "membershiplevel": "Non-Profit Membership"
+        },
+        {
+            "name": "Barnes Monuments",
+            "address": "1400 West 8th Street",
+            "phonenumber": "(620) 251-9797",
+            "website": "https://barnesmonuments.com/?gclid=CjwKCAiAu5agBhBzEiwAdiR5tO1AyEzFk3YXhPoJKTOT2OR_tp0OaGu1Vw2P4MEwfYthvkCSSkBFRxoCcEsQAvD_BwE",
+            "image": "images/businesses/barnes_monuments.png",
+            "membershiplevel": "Non-Profit Membership"
+        },
+        {
+            "name": "Jigg's Smoke Shop",
+            "address": "1705 West 4th Street",
+            "phonenumber": "(620) 252-8884",
+            "website": "https://jiggs-smoke-shop.business.site/?utm_source=gmb&utm_medium=referral",
+            "image": "images/businesses/jiggs_smoke_shop.png",
+            "membershiplevel": "Non-Profit Membership"
+        },
+        {
+            "name": "Green Acres Garden Center & Florist",
+            "address": "1917 West 4th Street",
+            "phonenumber": "(620) 251-7855",
+            "website": "https://www.greenacresfloral.net",
+            "image": "images/businesses/green_acres_garden_center_and_florist.png",
+            "membershiplevel": "Non-Profit Membership"
+        },
+        {
+            "name": "PERL Auto Center",
+            "address": "806 West 8th Street",
+            "phonenumber": "(620) 251-4050",
+            "website": "http://www.perlauto.net",
+            "image": "images/businesses/perl_auto_center.png",
+            "membershiplevel": "Non-Profit Membership"
+        },
+        {
+            "name": "Blueboots Western + Work",
+            "address": "401 West 8th Street",
+            "phonenumber": "(620) 688-6502",
+            "website": "https://www.facebook.com/blubootsks/",
+            "image": "images/businesses/blueboots_western_work.png",
+            "membershiplevel": "Non-Profit Membership"
+        }
+    ]
+}

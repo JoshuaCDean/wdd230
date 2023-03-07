@@ -9,12 +9,12 @@
 
     /*Main*/
 
-    main {
+    .content {
         display: grid;
         grid-template-columns: 60% 40%;
     }
 
-    main div {
+    .content div {
         margin: 10px 0px;
     }
 

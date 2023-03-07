@@ -86,7 +86,7 @@ header nav{
 }
 
 #large-nav a {
-    
+    padding:10px;
     text-decoration: none;
     color: #0C463F;
     font-size: 1.5rem;
@@ -164,20 +164,20 @@ header nav{
 
 
 /* Main */
-main div {
+.content div {
     background-color: #0C463F;
     color:#CDCFDF;
     text-align: center;
 }
 
 
-main h2 {
+.content h2 {
     color:#25D0BC;
     text-shadow:1px 1px 5px black;
     padding: 10px;
 }
 
-main p {
+.content p {
     font-size: large;
     text-shadow:1px 1px 2px #282A3E;
     padding: 10px;
@@ -389,12 +389,12 @@ main p {
     text-align: center;
 }
 
-main div {
+.content div {
     padding: 10px;
     margin: 10px;
 }
 
-main div ul li {
+.content div ul li {
     font-family: 'Dosis', sans-serif;
     padding: 10px;
     font-size: 16px;
@@ -510,6 +510,49 @@ form label.top input:required:valid
 
 .hidden {
     display: none;
+}
+
+
+/* DIRECTORY */
+.cards
+{
+    color:#282A3E;
+    box-shadow: 0px 0px 10px black;
+    padding:20px;
+    background-color: #0C463F;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(355px, 1fr));
+    gap: 1em;
+}
+
+.cards a 
+{
+    display: block;
+    color: #282A3E;
+    font-size: large;
+    text-decoration: none;
+}
+
+.cards a:hover
+{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.cards img
+{
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.cards section
+{
+    
+    align-items: center;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 10px;
+    background-color: #25D0BC;
 }
 /* Footer */
 

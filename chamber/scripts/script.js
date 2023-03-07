@@ -1,3 +1,5 @@
+const bData = "json/data.json"
+
 //Burger Menu
 function toggleMenu() {
     document.getElementById("primaryNav").classList.toggle("open");
@@ -91,12 +93,62 @@ if (!lastVisit == NaN)
 }
 
 localStorage.setItem("last-visit", todayDate);
-visitDays.textContent = `${daySinceLastVisit} `;
+if (visitDays)
+{
+    visitDays.textContent = `${daySinceLastVisit} `;
+}
+
 
 // Join Hidden Date Time
 const forumDateTime = document.querySelector("#forumDateTime");
 const dateandTime = `Date: ${now.getDate()} Time: ${now.getTime()}`;
-forumDateTime.innerHTML = dateandTime;
+if (forumDateTime) {
+    forumDateTime.innerHTML = dateandTime;
+}
+
+
+// Directory Setup
+
+async function GetBusinessData()
+{
+    const response = await fetch(bData);
+    const data = await response.json();
+    console.table(data.businesses);
+    displayBusinesses(data.businesses);
+}
+
+function displayBusinesses(businesses)
+{
+    const cards = document.querySelector(".cards")
+    if (cards)
+    {
+        businesses.forEach((business) => {
+            let card = document.createElement("section");
+            let name = document.createElement("h2");
+            let portrait = document.createElement("img");
+            let link = document.createElement("a");
+            let number = document.createElement("p");
+
+            name.textContent = `${business.name}`;
+            portrait.setAttribute("src", business.image);
+            portrait.setAttribute("alt", `Picture of ${business.name}`);
+            portrait.setAttribute("loading", "lazy");
+            portrait.setAttribute("width", 300);
+            portrait.setAttribute("height", 200);
+            link.textContent = "Website";
+            link.setAttribute("href", business.website);
+            number.textContent = `${business.phonenumber}`;
+
+            card.appendChild(name);
+            card.appendChild(portrait);
+            card.appendChild(link);
+            card.appendChild(number);
+            cards.appendChild(card);
+        })
+    }
+}
+
+GetBusinessData();
 
 
 // Scrolling Checker

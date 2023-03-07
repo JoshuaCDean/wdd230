@@ -27,9 +27,10 @@
 
             <nav>
                 <div id="large-nav">
-                    <a href="index.html">Directory</a>
+                    <a href="index.html">Home</a>
                     <a href="discover.html">Discover</a>
                     <a href="join.html">Join</a>
+                    <a href="directory.html">Directory</a>
                     <a href="#">Contact</a>
                 </div>
                 <div id="social-logo-box">
@@ -39,9 +40,10 @@
                 <div id="burgerBox">
                     <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
                     <ul id="primaryNav">
-                        <li><a href="index.html">Directory</a></li>
+                        <li><a href="index.html">Home</a></li>
                         <li><a href="discover.html">Discover</a></li>
                         <li class="active"><a href="discover.html">Join</a></li>
+                        <li><a href="directory.html">Directory</a></li>
                         <li><a href="#">Contact</a></li>
                     </ul>
                 </div>
@@ -53,36 +55,38 @@
     </header>
 
     <main>
-        <form action="thankyou.html" method="get">
-            <fieldset>
-                <legend>Applicant Information</legend>
-                <label class="top">*First Name:<input type="text" name="fname" required></label>
-                <label class="top">*Last Name:<input type="text" name="lname" required></label>
-                <label class="top">Business Position:<input type="text" pattern="[A-Za-z]{7}"></label>
-                <label class="top">Email:<input type="email" name="email" placeholder="businessemail@gmail.com"></label>
-                <label class="top">*Phone Number:<input type="tel" name="phone" placeholder="1111234321" required></label>
-                <label class="top">*Business Title:<input type="text" name="bname" required></label>
-            </fieldset>
+        <div class="content">
+            <form action="thankyou.html" method="get">
+                <fieldset>
+                    <legend>Applicant Information</legend>
+                    <label class="top">*First Name:<input type="text" name="fname" required></label>
+                    <label class="top">*Last Name:<input type="text" name="lname" required></label>
+                    <label class="top">Business Position:<input type="text" pattern="[A-Za-z]{7}"></label>
+                    <label class="top">Email:<input type="email" name="email" placeholder="businessemail@gmail.com"></label>
+                    <label class="top">*Phone Number:<input type="tel" name="phone" placeholder="1111234321" required></label>
+                    <label class="top">*Business Title:<input type="text" name="bname" required></label>
+                </fieldset>
 
-            <fieldset>
-                <legend>Membership Level</legend>
-                <label class="sbs"><input type="radio" name="memberLevel" value="nonprofit"> Non-Profit Membership</label>
-                <label class="sbs"><input type="radio" name="memberLevel" value="bronze"> Bronze Membership</label>
-                <label class="sbs"><input type="radio" name="memberLevel" value="silver"> Silver Membership</label>
-                <label class="sbs"><input type="radio" name="memberLevel" value="gold"> Gold Membership</label>
-            </fieldset>
+                <fieldset>
+                    <legend>Membership Level</legend>
+                    <label class="sbs"><input type="radio" name="memberLevel" value="nonprofit"> Non-Profit Membership</label>
+                    <label class="sbs"><input type="radio" name="memberLevel" value="bronze"> Bronze Membership</label>
+                    <label class="sbs"><input type="radio" name="memberLevel" value="silver"> Silver Membership</label>
+                    <label class="sbs"><input type="radio" name="memberLevel" value="gold"> Gold Membership</label>
+                 </fieldset>
 
-            <fieldset>
-                <legend>Business Information</legend>
-                <textarea name="bdescription" cols="30" rows="10" placeholder="Give a brief description about your business."></textarea>
-            </fieldset>
+                <fieldset>
+                    <legend>Business Information</legend>
+                    <textarea name="bdescription" cols="30" rows="10" placeholder="Give a brief description about your business."></textarea>
+                </fieldset>
 
-            <fieldset class="hidden">
-                <legend>Hidden Date And Time</legend>
-                <span id="forumDateTime"></span>
-            </fieldset>
-            <input type="submit" value="Join the Chamber" class="submitBtn">
-        </form>
+                <fieldset class="hidden">
+                    <legend>Hidden Date And Time</legend>
+                    <span id="forumDateTime"></span>
+                </fieldset>
+                <input type="submit" value="Join the Chamber" class="submitBtn">
+            </form>
+        </div>
     </main>
 
     <footer>

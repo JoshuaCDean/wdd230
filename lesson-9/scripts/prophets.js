@@ -19,7 +19,7 @@ function displayProphets(prophets) {
         birthDate.textContent = `Birth Date: ${prophet.birthdate}`
         birthPlace.textContent = `Birth Place: ${prophet.birthplace}`
         portrait.setAttribute("src", prophet.imageurl);
-        portrait.setAttribute("alt", `Portrait of ${prophet.name} ___________`);
+        portrait.setAttribute("alt", `Portrait of ${prophet.name} ${prophet.lastname}`);
         portrait.setAttribute("loading", "lazy");
         portrait.setAttribute("width", "340");
         portrait.setAttribute("height", "440");
