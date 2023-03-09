@@ -131,6 +131,10 @@
         grid-column: 1/4;
     }
 
+    #picture-div {
+        grid-column: 1/4;
+    }
+
     .content div ul li {
         list-style-type: none;
         font-size: 19px;

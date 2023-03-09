@@ -102,6 +102,10 @@
         grid-column: 1/3;
     }
 
+    #picture-div {
+        grid-column: 1/3;
+    }
+
     /* Join */
     form {
         grid-column: 1/3;

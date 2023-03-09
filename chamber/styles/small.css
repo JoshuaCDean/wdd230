@@ -416,6 +416,21 @@ picture img {
     transition: filter 0.5s;
 }
 
+#pictures {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+}
+
+#picture-div {
+    
+    border-radius: 10px;
+}
+
+#picture-div picture img {
+    max-width: 300px;
+    max-height: 200px;
+}
+
 /*JOIN PAGE*/
 
 form fieldset {
