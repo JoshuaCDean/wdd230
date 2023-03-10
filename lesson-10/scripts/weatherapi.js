@@ -25,12 +25,12 @@ function displayResults(weatherData) {
 
     const iconsrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`
     const desc = weatherData.weather[0].description;
-    const description = desc.split(" ");
+    let description = desc.split(" ");
 
     for (let i = 0; i < description.length; i++) {
         description[i] = description[i][0].toUpperCase() + description[i].substr(1);
     }
-    description.join(" ")
+    description = description.join(" ")
     
     weatherIcon.setAttribute("src", iconsrc);
     weatherIcon.setAttribute("alt", description);

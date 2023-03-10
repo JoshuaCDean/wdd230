@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
     <script src="scripts/script.js" defer></script>
-    <script src="scripts/wind_chill.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
 </head>
 
 <body>
@@ -67,7 +67,7 @@
                             images/wdd230-org1200.jpg 1200w"
                 >
                 <h2>Welcome To Coffeyville</h2>
-                <a href="#">Join the Chamber</a>
+                <a href="join.html">Join the Chamber</a>
             </div>
 
             <div id="events">
@@ -80,24 +80,24 @@
             <div id="weather">
                 <h2>Weather</h2>
                 <div id ="weather-box-ph">
-                    <img src="images/cloudy.png" alt="Weather Icon">
-                    <p id="weather-degrees"><span id="weatherDegrees">26</span>&#176;F</p>
+                    <img src="" alt="" id = "weather-icon">
+                    <p id="weather-degrees"><span id="weatherDegrees"></span> &deg;F</p>
                 </div>
                 <div id="weather-info-ph">
 
-                    <h3>Mostly Cloudy</h3>
+                    <h3><span id="weatherDescription"></span></h3>
                     <hr>
                     <div>
                         <p>Wind Speed:</p>
-                        <p><span id="windSpeed">3.1</span> mp/h</p>
+                        <p><span id="windSpeed"></span> mp/h</p>
                     </div>
                     <div>
                         <p>Wind Chill:</p>
-                        <p id="windChill"> </p>
+                        <p><span id="windChill"></span></p>
                     </div>
                     <div>
                         <p>Humidity:</p>
-                        <p>47%</p>
+                        <p><span id="humidity"></span>%</p>
                     </div>
                 </div>
             </div>
@@ -140,7 +140,7 @@
             </div>
 
             <div id="join">
-                <a href="#">Join Us!</a>
+                <a href="join.html">Join Us!</a>
                 <p>Discover how to join the Coffeyville Chamber of Commerce and how it will benefit your organization!</p>
             </div>
         </div>
@@ -158,6 +158,8 @@
                 <p>flamincrossbow@yahoo.com</p>
                 <p>+(620)-313-1432</p>
                 <a href="https://www.google.com/maps/place/1820+W+8th+St,+Coffeyville,+KS+67337/@37.0367512,-95.648215,17z/data=!4m5!3m4!1s0x87b7838079cf5f25:0xa421b2ded3847746!8m2!3d37.0367469!4d-95.6460211">📍 Location Map</a>
+                <hr>
+                <a href="https://openweathermap.org">OpenWeatherMap</a>
             </div>
             
         </section>

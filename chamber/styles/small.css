@@ -590,6 +590,17 @@ footer a{
     color: #282A3E;
 }
 
+
+footer hr {
+    border: black solid 1px;
+}
+
+footer a:hover {
+    color: black;
+    text-decoration:solid;
+}
+
+
 #base-footer {
     border-top: 1px solid #282A3E;
 }
