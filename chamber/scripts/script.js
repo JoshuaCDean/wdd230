@@ -128,6 +128,8 @@ function displayBusinesses(businesses)
             let portrait = document.createElement("img");
             let link = document.createElement("a");
             let number = document.createElement("p");
+            let address = document.createElement("p")
+            let mLevel = document.createElement("p")
 
             name.textContent = `${business.name}`;
             portrait.setAttribute("src", business.image);
@@ -138,11 +140,16 @@ function displayBusinesses(businesses)
             link.textContent = "Website";
             link.setAttribute("href", business.website);
             number.textContent = `${business.phonenumber}`;
+            address.textContent = `${business.address}`
+            mLevel.textContent = `Membership Level: ${business.membershiplevel}`
 
             card.appendChild(name);
             card.appendChild(portrait);
             card.appendChild(link);
+            card.appendChild(address);
             card.appendChild(number);
+            card.appendChild(mLevel);
+
             cards.appendChild(card);
         })
     }
