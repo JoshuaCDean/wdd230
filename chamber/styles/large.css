@@ -145,6 +145,30 @@
         grid-column: 1/4;
     }
 
+    /* Directory */
+
+    .list section p
+    {
+        padding: 10px;
+        font-size: medium;
+    }
+
+    .list section a
+    {
+        font-size: medium;
+    }
+
+    .list section img
+    {
+        max-width: 300px;
+        max-height: 200px;
+    }
+
+    .list section h2
+    {
+        font-size: x-large;
+    } 
+
     /* Footer */
     #footer-info-box2 {
         margin:auto;

@@ -535,6 +535,42 @@ form label.top input:required:valid
 }
 
 /* DIRECTORY */
+
+.menu
+{
+    max-width: 14em;
+    margin: auto;
+}
+
+.menu button
+{
+    font-size: x-large;
+    background-color: #0C463F;
+    color:#CDCFDF;
+    padding: 5px;
+    padding-right: 15px;
+    border-radius: 10px;
+}
+
+.menu button:hover
+{
+    background-color: #282A3E;
+}
+
+.menu button:focus
+{
+    background-color: #25D0BC;
+    color: #282A3E;
+    border-color: #25D0BC;
+}
+
+.grid
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(355px, 1fr));
+    gap: 1em;
+}
+
 .cards
 {
     color:#282A3E;
@@ -542,9 +578,35 @@ form label.top input:required:valid
     padding:20px;
     background-color: #0C463F;
     margin: 10px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(355px, 1fr));
-    gap: 1em;
+}
+
+.list section 
+{
+    display: flex;
+    background-color: #25D0BC;
+    justify-content: space-between;
+    margin:20px;
+}
+
+.list section p
+{
+    padding: 10px;
+    font-size: small;
+}
+
+.list section a
+{
+    font-size: small;
+}
+
+.list section img
+{
+    display: none;
+}
+
+.list section h2
+{
+    font-size: medium;
 }
 
 .cards a 
@@ -552,7 +614,7 @@ form label.top input:required:valid
     display: block;
     color: #282A3E;
     font-size: large;
-    text-decoration: none;
+    text-decoration: bold;
 }
 
 .cards a:hover

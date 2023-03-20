@@ -143,11 +143,11 @@ function displayBusinesses(businesses)
             address.textContent = `${business.address}`
             mLevel.textContent = `Membership Level: ${business.membershiplevel}`
 
-            card.appendChild(name);
             card.appendChild(portrait);
-            card.appendChild(link);
+            card.appendChild(name);
             card.appendChild(address);
             card.appendChild(number);
+            card.appendChild(link);
             card.appendChild(mLevel);
 
             cards.appendChild(card);
@@ -156,6 +156,24 @@ function displayBusinesses(businesses)
 }
 
 GetBusinessData();
+
+const gridbutton = document.querySelector("#grid");
+const listbutton = document.querySelector("#list");
+const display = document.querySelector(".cards");
+
+gridbutton.addEventListener("click", showGrid);
+
+function showGrid() {
+	display.classList.add("grid");
+	display.classList.remove("list");
+}
+
+listbutton.addEventListener("click", showList); // example using defined function
+
+function showList() {
+	display.classList.add("list");
+	display.classList.remove("grid");
+}
 
 
 // Scrolling Checker
