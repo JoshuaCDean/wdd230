@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CCOC Directory</title>
-    <meta name="description" content="The directory page for the Coffeyville Chamber of Commerce">
+    <title>CCOC Contact Page</title>
+    <meta name="description" content="The Contacting page for the Coffeyville Chamber Of Commerce">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/medium.css">
@@ -43,9 +43,9 @@
                     <ul id="primaryNav">
                         <li><a href="index.html">Home</a></li>
                         <li><a href="discover.html">Discover</a></li>
-                        <li><a href="join.html">Join</a></li>
-                        <li class="active"><a href="directory.html">Directory</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="discover.html">Join</a></li>
+                        <li><a href="directory.html">Directory</a></li>
+                        <li class="active"><a href="contact.html">Contact</a></li>
                     </ul>
                 </div>
             </nav>
@@ -56,12 +56,51 @@
     </header>
 
     <main>
-        <div class="menu">
-            <button id="grid">⏹️ Grid</button>
-            <button id="list">📄 List  </button>
+        <div class="contact-us">
+            <img id="contact-img" src="images/hero_img.png" alt="Contact Us Image">
+            <section id="contact-info">
+                <h2>Contact Us</h2>
+                <h3>Address</h3>
+                <p>1820 West 8th Street, Coffeyville, Kansas 67337</p>
+                <h3>Phone</h3>
+                <p>620-313-1432</p>
+                <h3>Email</h3>
+                <p>flamincrossbow@yahoo.com</p>
+                <section>
+                    <a href="https://www.facebook.com"><img src="images/facebook.png" alt="Facebook Logo" class="social-image"></a>
+                    <a href="https://www.instagram.com"><img src="images/instagram.png" alt="Instagram Logo" class="social-image"></a>
+                </section>
+            </section>
         </div>
-        <div class="cards grid">
+        <div class="content">
+            <form action="contact-thanks.html" method="get">
+                <fieldset>
+                    <legend>Contact Us</legend>
+                    <label class="top">*First Name:<input type="text" name="fname" required></label>
+                    <label class="top">*Last Name:<input type="text" name="lname" required></label>
+                    <label class="top">*Email:<input type="email" name="email" placeholder="contactus@gmail.com" required></label>
+                    <label class="top">Phone Number:<input type="tel" name="phone" placeholder="1111234321"></label>
+                    <label class="top">*Company Name:<input type="text" name="bname" required></label>
+                </fieldset>
 
+                <fieldset>
+                    <legend>Are you a Chamber Member?</legend>
+                    <label class="sbs"><input type="radio" name="memberLevel" value="nonprofit"> Yes</label>
+                    <label class="sbs"><input type="radio" name="memberLevel" value="bronze"> No</label>
+                    <label class="sbs"><input type="radio" name="memberLevel" value="silver"> Not Sure</label>
+                 </fieldset>
+
+                <fieldset>
+                    <legend>What is your question/questions for the CCOC?</legend>
+                    <textarea name="bdescription" cols="30" rows="10" placeholder="Brief question."></textarea>
+                </fieldset>
+
+                <fieldset class="hidden">
+                    <legend>Hidden Date And Time</legend>
+                    <span id="forumDateTime"></span>
+                </fieldset>
+                <input type="submit" value="Contact Us" class="submitBtn">
+            </form>
         </div>
     </main>
 
@@ -94,6 +133,7 @@
             <div id ="large-footer">
                 <p>&copy; <span class="copyyear"></span> Coffeyville Chamber | JOSHUA C. DEAN | KANSAS | WDD 230 Project | <span class="currentdate"></span> </p>
             </div>
+            
         </section>
     </footer>
     

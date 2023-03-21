@@ -124,7 +124,25 @@
         font-size: medium;
     }
 
+    /* Contact Us */
 
+    .contact-us
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        text-align: left;
+    }
+    .contact-us section
+    {
+        padding: 10px;
+    }
+
+    #contact-img
+    {
+        margin: auto 0px auto 0px;
+        width: 50%;
+    }
 
 
     /* footer */

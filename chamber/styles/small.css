@@ -637,6 +637,29 @@ form label.top input:required:valid
     border-radius: 10px;
     background-color: #25D0BC;
 }
+
+/* CONTACT US */
+.contact-us
+{
+    background-color: #0C463F;
+    color:#CDCFDF;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 10px;
+    border: black solid 1px;
+    box-shadow: black 1px 1px 10px;
+}
+
+#contact-img
+{
+    border-radius: 20px;
+    padding: 10px;
+    margin: auto;
+    width: 90%;
+    max-width: 900px;
+    max-height: 291px;
+}
 /* Footer */
 
 footer {
