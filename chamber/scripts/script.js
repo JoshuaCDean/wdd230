@@ -161,18 +161,21 @@ const gridbutton = document.querySelector("#grid");
 const listbutton = document.querySelector("#list");
 const display = document.querySelector(".cards");
 
-gridbutton.addEventListener("click", showGrid);
+if (display)
+{
+    gridbutton.addEventListener("click", showGrid);
 
-function showGrid() {
-	display.classList.add("grid");
-	display.classList.remove("list");
-}
+    function showGrid() {
+    	display.classList.add("grid");
+    	display.classList.remove("list");
+    }
 
-listbutton.addEventListener("click", showList); // example using defined function
+    listbutton.addEventListener("click", showList); // example using defined function
 
-function showList() {
-	display.classList.add("list");
-	display.classList.remove("grid");
+    function showList() {
+    	display.classList.add("list");
+    	display.classList.remove("grid");
+    }
 }
 
 

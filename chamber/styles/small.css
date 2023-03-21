@@ -614,7 +614,7 @@ form label.top input:required:valid
     display: block;
     color: #282A3E;
     font-size: large;
-    text-decoration: bold;
+    text-decoration: none;
 }
 
 .cards a:hover
