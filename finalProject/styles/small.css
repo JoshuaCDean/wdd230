@@ -507,6 +507,69 @@ form fieldset textarea
 }
 
 
+/* ABOUT US */
+#intro
+{
+    background-color: #279af1;
+    color: #f7f7ff;
+    text-align: center;
+    margin: 30px auto;
+    border-radius: 10px;
+    border: 2px solid #741b46;
+    padding: 30px;
+    max-width: 572px;
+}
+
+#intro h2
+{
+    color: #741b46;
+    text-shadow: 1px 1px 10px white;
+}
+
+#intro img
+{
+    padding: 0px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+#contact-info
+{
+    background-color: #741b46;
+    color: #f7f7ff;
+    text-align: center;
+    margin: 30px auto;
+    border-radius: 10px;
+    border: 2px solid #279af1;
+    padding: 30px;
+    max-width: 572px;
+}
+
+#contact-info h2
+{
+    color: #d4b5af;
+    text-shadow: 1px 1px 10px black;
+}
+
+#contact-info img
+{
+    padding: 0px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+#contact-info a
+{
+    text-decoration: none;
+    color: #d4b5af;
+    font-size: larger;
+}
+
+#contact-info a:hover
+{
+    color: #f7f7ff;
+}
+
 /* ---------- LAZY LOADING ---------- */
 picture img[data-src] {
     filter: blur(0.2em);
