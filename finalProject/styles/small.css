@@ -28,7 +28,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: #f7f7ff;
+    color: black;
 }
 
 #info-header 
@@ -136,7 +136,7 @@ nav {
     width: 100%;
     background-color: #279af1;
     border: 0px;
-    color: #f7f7ff;
+    color: black;
     border-radius: 3px;
     font-size: xx-large;
     padding: 5px;
@@ -145,7 +145,6 @@ nav {
 
 #hamburgerBtn.open {
     border-top: solid black 1px;
-    text-shadow: 2px 2px 3px black;
 }
 
 #hamburgerBtn:hover
@@ -173,9 +172,7 @@ nav {
     display: block;
     text-decoration: none;
     padding: 15px;
-    color: #f7f7ff;
-    
-    text-shadow: 2px 2px 3px black;
+    color: black;
     font-size: large;
 }
 
@@ -185,7 +182,7 @@ nav {
 }
 
 .active {
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 #hamburgerBtn span:nth-child(1) {display:block;}
@@ -205,7 +202,7 @@ nav {
     position: relative;
 }
 
-#hero-box section
+#hero-box div
 {
     margin: auto;
 }
@@ -232,14 +229,14 @@ nav {
     max-width: 2048px;
 }
 
-#hero-box section picture img
+#hero-box div picture img
 {
     border: #741b46 2px solid;
     border-radius: 10px;
     width: 100%;
 }
 
-#hero-box section picture img:hover
+#hero-box div picture img:hover
 {
     filter:blur(0.3em);
     transition: filter 3s;
@@ -263,14 +260,14 @@ nav {
 #hero-box a:hover
 {
     background-color: #279af1;
-    color: #f7f7ff;
+    color: black;
 }
 
 /* Drinks Submitted */
 
 #drinks-submitted {
     background-color: #741b46;
-    color: #f7f7ff;
+    color: black;
     border-radius: 10px;
     padding: 5px;
     margin:10px;
@@ -286,17 +283,12 @@ nav {
 {
     margin: 30px auto;
     background-color: #279af1;
-    color: #f7f7ff;
+    color: black;
     text-align: center;
     border-radius: 10px;
     box-shadow: 1px 1px 10px black;
     border: #741b46 2px solid;
     max-width: fit-content;
-}
-
-#weather-card h2
-{
-    text-shadow: 1px 1px 2px black;
 }
 
 #weather-card hr
@@ -342,8 +334,7 @@ nav {
     
     margin-top: 30px;
     padding: 10px;
-    color: #f7f7ff;
-    text-shadow: 1px 1px 2px black;
+    color: black;
     box-shadow: 1px 1px 10px black;
     background-color: #279af1;
     border: solid 2px #741b46;
@@ -361,7 +352,7 @@ nav {
     position: relative;
 }
 
-#fresh-hero-box section
+#fresh-hero-box div
 {
     margin: auto;
 }
@@ -383,14 +374,14 @@ nav {
     max-width: 600px;
 }
 
-#fresh-hero-box section picture img
+#fresh-hero-box div picture img
 {
     border: #741b46 2px solid;
     border-radius: 10px;
     width: 100%;
 }
 
-#fresh-hero-box section picture img:hover
+#fresh-hero-box div picture img:hover
 {
     filter:blur(0.3em);
     transition: filter 3s;
@@ -417,7 +408,7 @@ nav {
 form fieldset {
     border: 2px solid #741b46;
     background-color: #279af1;
-    color:#f7f7ff;
+    color: black;
     border-radius: 10px;
     margin: 20px 0px;
     max-width: 800px;
@@ -440,7 +431,7 @@ form label.top {
 
 ::placeholder
 {
-    color: #279af1;
+    color: rgba(255, 255, 255, 0.8);
 }
 
 form label.top input, form label.top select {
@@ -511,7 +502,7 @@ form fieldset textarea
 #intro
 {
     background-color: #279af1;
-    color: #f7f7ff;
+    color: black;
     text-align: center;
     margin: 30px auto;
     border-radius: 10px;
