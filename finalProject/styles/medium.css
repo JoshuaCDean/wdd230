@@ -1,0 +1,62 @@
+@media only screen and (min-width: 35rem) {
+
+    /* ------HEADER------ */
+
+    #burgerBox {
+        display: none;
+    }
+
+    #large-nav
+    {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #header-logo img
+    {
+        width: 12rem;
+    }
+
+    #header-text {
+        margin-bottom: 30px;
+    }
+
+    #header-text h1 {
+        font-size: 2.5em;
+
+    }
+
+    #header-text p {
+        font-size: large;
+    }
+
+    /* Main */
+
+    /* HEro */
+    #hero-box h2 {
+        font-size: xx-large;
+        margin-left: -140px;
+    }
+
+
+    /* ------------ FOOTER ------------*/
+    .footer-content
+    {
+        text-align: center;
+        font-size: larger;
+    }
+
+    .footer-content a {
+        font-size: larger;
+    }
+
+    .footer-content h3
+    {
+        font-size: x-large;
+    }
+
+    .footer-content h2
+    {
+        font-size: xx-large;
+    }
+}
