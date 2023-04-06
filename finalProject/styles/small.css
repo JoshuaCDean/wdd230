@@ -117,8 +117,9 @@ nav {
 }
 
 #large-nav a:hover {
+    text-shadow: none;
     background-color: #279af1;
-    color: #f7f7ff;
+    color: black;
 }
 
 #burgerBox
